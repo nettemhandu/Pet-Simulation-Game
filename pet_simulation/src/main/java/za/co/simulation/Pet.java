@@ -27,5 +27,15 @@ public abstract class Pet {
         return name;
     }
 
+    public int getHunger() {
+        return hunger;
+    }
 
+    public int getHappiness() {
+        return happiness;
+    }
+
+    public int getEnergy() {
+        return energy;
+    }
 }
