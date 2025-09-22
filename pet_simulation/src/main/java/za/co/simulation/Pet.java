@@ -38,4 +38,34 @@ public abstract class Pet {
     public int getEnergy() {
         return energy;
     }
+
+    public void setHunger(int hunger) {
+        if (hunger < 0) {
+            this.hunger = 0;
+        } else if (hunger > 100) {
+            this.hunger = 100;
+        } else {
+            this.hunger = hunger;
+        }
+    }
+
+    public void setHappiness(int happiness) {
+        if (happiness < 0) {
+            this.happiness = 0;
+        } else if (happiness > 100) {
+            this.happiness = 100;
+        } else {
+            this.happiness = happiness;
+        }
+    }
+
+    public void setEnergy(int energy) {
+        if (energy < 0) {
+            this.energy = 0;
+        } else if (energy > 100) {
+            this.energy = 100;
+        } else {
+            this.energy = energy;
+        }
+    }
 }
