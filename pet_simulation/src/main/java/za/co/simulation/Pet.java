@@ -20,6 +20,7 @@ public abstract class Pet {
     public abstract void play();
     public abstract void sleep();
     public abstract void makeSound();
+    public abstract void showInfo();
 
     // Getters for private attributes
 
