@@ -13,7 +13,6 @@ public class Cat extends Pet {
 
         setHappiness(getHappiness() + 5);
         setHunger(getHunger() - 15);
-
     }
 
     @Override
