@@ -41,6 +41,11 @@ public class Bird extends Pet {
 
     @Override
     public void showInfo() {
+        String name = getName();
 
+        System.out.println("Current info on " + name + ":");
+        System.out.println(name + "'s energy is currently at: " + getEnergy());
+        System.out.println(name + "'s happiness is currently at: " + getHappiness());
+        System.out.println(name + "'s hunger is currently at: " + getHunger());
     }
 }
