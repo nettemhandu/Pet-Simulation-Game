@@ -2,11 +2,19 @@ package za.co.simulation;
 
 public class Main {
     public static void main(String[] args) {
-        Dog dog1 = new Dog("blackie buns", 50, 50, 50);
-        dog1.play();
-        dog1.feed();
-        dog1.makeSound();
-        dog1.sleep();
-        dog1.showInfo();
+        Dog myDog = new Dog("blackie buns", 50, 50, 50);
+        myDog.play();
+        myDog.feed();
+        myDog.sleep();
+        myDog.makeSound();
+        myDog.showInfo();
+
+        Cat myCat = new Cat("Soma", 30, 30, 30);
+        myCat.play();
+        myCat.sleep();
+        myCat.feed();
+        myCat.makeSound();
+
+        myCat.showInfo();
     }
 }

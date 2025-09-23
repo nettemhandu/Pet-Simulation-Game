@@ -1,28 +1,29 @@
 package za.co.simulation;
 
-public class Dog extends Pet {
+public class Cat extends Pet {
 
-    public Dog(String name, int hunger, int happiness, int energy) {
+    public Cat(String name, int hunger, int happiness, int energy) {
         super(name, hunger, happiness, energy);
     }
 
     @Override
     public void feed() {
         String name = getName();
-        System.out.println(name +" is eating...!");
+        System.out.println(name +" is eating...");
 
-        setHappiness(getHappiness() + 10);
-        setHunger(getHunger() - 20);
+        setHappiness(getHappiness() + 5);
+        setHunger(getHunger() - 15);
+
     }
 
     @Override
     public void play() {
         String name = getName();
-        System.out.println(name + " is playing fetch!");
+        System.out.println(name + " is chasing a mouse...");
 
-        setEnergy(getEnergy() - 15);
-        setHunger(getHunger() + 10);
-        setHappiness(getHappiness() + 20);
+        setEnergy(getEnergy() - 5);
+        setHunger(getHunger() + 5);
+        setHappiness(getHappiness() + 10);
     }
 
     @Override
@@ -30,13 +31,13 @@ public class Dog extends Pet {
         String name = getName();
         System.out.println(name + " is sleeping...zzz");
 
-        setEnergy(getEnergy() + 30);
+        setEnergy(getEnergy() + 20);
         setHunger(getHunger() + 5);
     }
 
     @Override
     public void makeSound() {
-        System.out.println("Woof woof!");
+        System.out.println("Meow meow!");
     }
 
     @Override
