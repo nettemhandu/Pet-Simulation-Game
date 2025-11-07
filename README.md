@@ -9,5 +9,5 @@ Polymorphism: Methods like play() and makeSound() behave differently for each pe
 
 Abstraction: Abstract Pet class defines essential pet behaviors that all pets implement.
 
-Features a simple console-based interaction loop to feed, play, and check pet stats.
+Features a simple console based interaction loop to feed, play, and check pet stats.
 Well-structured and easily extensible for new pets, items, or gameplay mechanics.
