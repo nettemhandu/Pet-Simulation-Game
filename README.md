@@ -7,7 +7,7 @@ Inheritance: Subclasses (Dog, Cat, Bird) inherit from an abstract Pet class
 
 Polymorphism: Methods like play() and makeSound() behave differently for each pet type.
 
-Abstraction: Abstract Pet class defines essential pet behaviors that all pets implement.
+Abstraction: Abstract Pet class defines essential pet behaviors that all pets implement
 
 Features a simple console based interaction loop to feed, play, and check pet stats.
 Well-structured and easily extensible for new pets, items or gameplay mechanics.
