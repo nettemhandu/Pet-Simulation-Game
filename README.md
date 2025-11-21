@@ -1,7 +1,7 @@
 # Pet-Simulation-Game
 A fun interactive text-based game where users take care of virtual pets. Designed to demonstrate mastery of the four pillars of OOP:
 
-Encapsulation: Pet attributes like hunger and happiness are private with controlled access.
+Encapsulation: Pet attributes like hunger and happiness are private with controlled access
 
 Inheritance: Subclasses (Dog, Cat, Bird) inherit from an abstract Pet class.
 
