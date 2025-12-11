@@ -5,7 +5,7 @@ Encapsulation: Pet attributes like hunger and happiness are private with control
 
 Inheritance: Subclasses (Dog, Cat, Bird) inherit from an abstract Pet class.
 
-Polymorphism: Methods like play() and makeSound() behave differently for each pet type
+Polymorphism: Methods like play() and makeSound() behave differently for each pet type.
 
 Abstraction: Abstract Pet class defines essential pet behaviors that all pets implement
 
