@@ -3,7 +3,7 @@ A fun interactive text based game where users take care of virtual pets. Designe
 
 Encapsulation: Pet attributes like hunger and happiness are private with controlled access
 
-Inheritance: Subclasses (Dog, Cat, Bird) inherit from an abstract Pet class
+Inheritance: Subclasses (Dog, Cat, Bird) inherit from an abstract Pet class.
 
 Polymorphism: Methods like play() and makeSound() behave differently for each pet type
 
